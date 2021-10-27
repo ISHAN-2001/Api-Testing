@@ -48,7 +48,8 @@ export default function BasicTabs({body , setbody}) {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <div className="Tabs">
+      <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="Query" {...a11yProps(0)} />
@@ -68,5 +69,6 @@ export default function BasicTabs({body , setbody}) {
         ></textarea>
       </TabPanel>
     </Box>
+    </div>
   );
 }

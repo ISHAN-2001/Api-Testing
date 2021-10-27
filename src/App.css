@@ -5,6 +5,10 @@
   overflow:none;
 }
 
+body{
+  background-color: #f1f5f8;
+}
+
 .root , .Json{
   max-width: 1000px;
   margin: 20px auto;
@@ -13,6 +17,11 @@
 .Header{
   display: flex;
   align-items: center;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 input[type="text"] , textarea{
   outline: none;
@@ -37,4 +46,21 @@ input[type="text"]:focus ,textarea:focus{
   margin: 0px 10px;
     width: 498px;
     height: 272px;
+}
+
+.Tabs{
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Json{
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  overflow: scroll;
 }
