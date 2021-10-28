@@ -17,6 +17,9 @@ const UseFetch = (url, method, body, count) => {
 
     useEffect(() => {
         const Abortcont = new AbortController();
+        setisPending(true);
+        setdata(null);
+        seterror(null);
 
         async function fetchData() {
             try {
